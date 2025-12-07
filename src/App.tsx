@@ -79,7 +79,7 @@ import { Feedback } from "./routes/feedback";
 /* ✅ New pages added */
 import AboutPage from "@/routes/about";
 import ContactPage from "@/routes/contact";
-import ServicesPage from "@/routes/services";
+// import ServicesPage from "@/routes/services";
 
 const App = () => {
   return (
@@ -90,7 +90,7 @@ const App = () => {
           <Route index element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/services" element={<ServicesPage />} />
+          {/* <Route path="/services" element={<ServicesPage />} /> */}
         </Route>
 
         {/* ✅ Authentication Layout */}
